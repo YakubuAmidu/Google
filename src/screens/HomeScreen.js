@@ -1,3 +1,6 @@
+import React, { Component } from 'react';
+import { View, Text, StyleSheet, ScrollView, TextInput } from 'react-native';
+import { FontAwesome } from '@expo/vector-icons';
 
 
 export default class Google extends Component {
