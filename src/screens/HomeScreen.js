@@ -17,16 +17,7 @@ export default class Google extends Component {
            <Text style={{ fontSize: 20, color: 'green', marginTop: 30, marginBottom: 20, fontSize: 40, fontWeight: 'bold' }}>l</Text>
             <Text style={{ fontSize: 20, color: 'red', marginTop: 30, marginBottom: 20, fontSize: 40, fontWeight: 'bold' }}>e</Text>
             </View>
-       <View>
-       <TextInput style={styles.textInputStyle}>
-       <FontAwesome name="microphone" size={24} color="red" />
-       </TextInput>
-       </View>
-
-       <View style={styles.viewStyle1}>
-       <Text style={styles.textStyle2}>Google Search</Text>
-       <Text style={styles.textStyle2}>I'm Feeling Lucky</Text>
-       </View>
+      
 
      <View style={styles.viewStyle2}>
        <Text style={styles.textStyle3}>We're updating Google.</Text>
