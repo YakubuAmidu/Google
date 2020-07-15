@@ -4,7 +4,19 @@ import { FontAwesome } from '@expo/vector-icons';
 
 
 
-
+export default class Google extends Component {
+  render() {
+    return (
+      <ScrollView>
+      <View>
+       <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center' }}>
+       <Text style={{ fontSize: 20, color: 'blue', marginTop: 30, marginBottom: 20, fontSize: 40, fontWeight: 'bold' }}>G</Text>
+        <Text style={{ fontSize: 20, color: 'red', marginTop: 30, marginBottom: 20, fontSize: 40, fontWeight: 'bold' }}>o</Text>
+         <Text style={{ fontSize: 20, color: 'gold', marginTop: 30, marginBottom: 20, fontSize: 40, fontWeight: 'bold' }}>o</Text>
+          <Text style={{ fontSize: 20, color: 'blue', marginTop: 30, marginBottom: 20, fontSize: 40, fontWeight: 'bold' }}>g</Text>
+           <Text style={{ fontSize: 20, color: 'green', marginTop: 30, marginBottom: 20, fontSize: 40, fontWeight: 'bold' }}>l</Text>
+            <Text style={{ fontSize: 20, color: 'red', marginTop: 30, marginBottom: 20, fontSize: 40, fontWeight: 'bold' }}>e</Text>
+            </View>
        <View>
        <TextInput style={styles.textInputStyle}>
        <FontAwesome name="microphone" size={24} color="red" />
