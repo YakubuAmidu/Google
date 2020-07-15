@@ -28,25 +28,25 @@ export default class Google extends Component {
             <Text style={styles.textStyle2}>I'm Feeling Lucky</Text>
             </View>
 
-     
-  textInputStyle: {
-    fontSize: 20,
-    borderWidth: 1,
-    borderColor: '#ddd',
-    paddingTop: 10,
-    paddingBottom: 10,
-    paddingRight: 10,
-    marginLeft: 20,
-    marginRight: 20,
-    marginTop: 20,
-    textAlign: 'right',
-  },
-  viewStyle1: {
-    flex: 1,
-    flexDirection: 'row',
-    justifyContent: 'center',
-    marginTop: 20
-  },
+            <View style={styles.viewStyle2}>
+              <Text style={styles.textStyle3}>We're updating Google.</Text>
+              <Text style={styles.textStyle4}>Learn more</Text>
+           </View>
+
+              </View>
+             </ScrollView>
+           );
+         };
+       }
+
+       const styles = StyleSheet.create({
+         textStyle1: {
+           textAlign: 'center',
+           fontSize: 50,
+           marginTop: 20,
+           color: '#808080'
+         },
+  
   textStyle2: {
     backgroundColor: '#DFDFDF',
     color: '#808080',
